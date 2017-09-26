@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MXReformerKeysKit_Example' do
+  pod 'MXReformerKeysKit', :path => '../'
+
+  target 'MXReformerKeysKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
