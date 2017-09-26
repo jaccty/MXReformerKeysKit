@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MXReformerKeysKit (1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MXReformerKeysKit (from `../`)
+
+EXTERNAL SOURCES:
+  MXReformerKeysKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MXReformerKeysKit: 4f8e47a780a1f3dcdac203e21a2d9ed56c49681c
+
+PODFILE CHECKSUM: e6ffebef8ec36b5226675407604e44d3d14b4f41
+
+COCOAPODS: 1.3.1

@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		032AC9ED0041B696C35CEEEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1AD9B3C49C5F5DCE315B8C46 /* MXReformerKeysKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MXReformerKeysKit.podspec; path = ../MXReformerKeysKit.podspec; sourceTree = "<group>"; };
+		032AC9ED0041B696C35CEEEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1AD9B3C49C5F5DCE315B8C46 /* MXReformerKeysKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MXReformerKeysKit.podspec; path = ../MXReformerKeysKit.podspec; sourceTree = "<group>"; };
 		3CAB9BBDC0EE60F3284BBFE6 /* Pods-MXReformerKeysKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXReformerKeysKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXReformerKeysKit_Example/Pods-MXReformerKeysKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MXReformerKeysKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXReformerKeysKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		6283B1ECF2F6FB382AEA00D8 /* Pods-MXReformerKeysKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXReformerKeysKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXReformerKeysKit_Tests/Pods-MXReformerKeysKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		640EE36A5FC576370195D6BF /* Pods-MXReformerKeysKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXReformerKeysKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXReformerKeysKit_Tests/Pods-MXReformerKeysKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		809F7FB2B71AF3140A646912 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		809F7FB2B71AF3140A646912 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD583DFF5789A726F8F4961 /* Pods_MXReformerKeysKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXReformerKeysKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7573756A9B4DBB9195C0726 /* Pods-MXReformerKeysKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXReformerKeysKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXReformerKeysKit_Example/Pods-MXReformerKeysKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "848941531@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UX9TLJR8T2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -536,6 +539,7 @@
 			baseConfigurationReference = 3CAB9BBDC0EE60F3284BBFE6 /* Pods-MXReformerKeysKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX9TLJR8T2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXReformerKeysKit/MXReformerKeysKit-Prefix.pch";
 				INFOPLIST_FILE = "MXReformerKeysKit/MXReformerKeysKit-Info.plist";
@@ -551,6 +555,7 @@
 			baseConfigurationReference = C7573756A9B4DBB9195C0726 /* Pods-MXReformerKeysKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX9TLJR8T2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXReformerKeysKit/MXReformerKeysKit-Prefix.pch";
 				INFOPLIST_FILE = "MXReformerKeysKit/MXReformerKeysKit-Info.plist";

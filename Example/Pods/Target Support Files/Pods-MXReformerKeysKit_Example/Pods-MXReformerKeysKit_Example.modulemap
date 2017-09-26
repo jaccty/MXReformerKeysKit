@@ -1,0 +1,6 @@
+framework module Pods_MXReformerKeysKit_Example {
+  umbrella header "Pods-MXReformerKeysKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
